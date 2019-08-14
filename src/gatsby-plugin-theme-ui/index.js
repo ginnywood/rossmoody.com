@@ -15,10 +15,10 @@ export default {
     '5rem'
   ],
   fonts: {
-    body: 'system-ui, sans-serif'
+    body: 'IBM Plex Sans, sans-serif'
   },
-
   fontSizes: [
+    '0.6rem',
     '0.75rem',
     '0.875rem',
     '1rem',
@@ -34,7 +34,7 @@ export default {
   lineHeights: {
     none: 1,
     tight: 1.25,
-    normal: 1.5,
+    normal: 1.6,
     loose: 2
   },
   colors: {
@@ -46,7 +46,7 @@ export default {
       dark: {
         text: '#fff',
         background: '#000',
-        primary: '#0cf'
+        border: 'rgba(255, 255, 255, 0.20)'
       }
     }
   },
@@ -54,14 +54,14 @@ export default {
     root: {
       color: 'text',
       fontFamily: 'body',
-      fontSize: 3,
+      fontSize: 4,
       lineHeight: 'normal',
       fontWeight: 'normal'
     },
     h1: {
       mt: 6,
       mb: 4,
-      fontSize: 6,
+      fontSize: 7,
       fontWeight: 'bold',
       lineHeight: 'tight'
     },
@@ -69,7 +69,7 @@ export default {
       mt: 9,
       mb: 6,
       pb: 2,
-      fontSize: 1,
+      fontSize: 2,
       lineHeight: 'tight',
       fontWeight: 'bold',
       textTransform: 'uppercase',
@@ -80,9 +80,13 @@ export default {
     h3: {
       mt: 7,
       mb: 2,
-      fontSize: 5,
+      fontSize: 6,
       lineHeight: 'tight',
       fontWeight: 'bold'
+    },
+    h6: {
+      fontSize: 1,
+      fontWeight: 'normal'
     },
     p: {
       mt: 0,
