@@ -1,0 +1,23 @@
+{
+  "name": "rossmoody.com",
+  "version": "0.0.0",
+  "author": "Ross Moody <fiftyfivehis@gmail.com>",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "repository": "rossmoody/rossmoody.com",
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@mdx-js/mdx": "^1.3.0",
+    "@mdx-js/react": "^1.3.0",
+    "gatsby": "^2.13.62",
+    "gatsby-plugin-mdx": "^1.0.24",
+    "gatsby-plugin-react-helmet": "^3.1.3",
+    "gatsby-plugin-theme-ui": "^0.2.33",
+    "react": "^16.9.0",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "theme-ui": "^0.2.33"
+  }
+}
