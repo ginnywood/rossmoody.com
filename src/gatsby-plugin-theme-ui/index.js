@@ -38,15 +38,19 @@ export default {
     loose: 2
   },
   colors: {
-    text: '#333',
-    primary: '#FF5252',
+    text: 'rgba(0, 0, 0, .75)',
+    heading: 'rgba(0, 0, 0, .85)',
     highlight: '#FFBF75',
-    border: 'rgba(0, 0, 0, 0.20)',
+    border: 'rgba(0, 0, 0, 0.25)',
+    background: '#FFFFFF',
+    toggleBg: '#232323',
     modes: {
       dark: {
-        text: '#fff',
-        background: '#000',
-        border: 'rgba(255, 255, 255, 0.20)'
+        text: 'rgba(255, 255, 255, 0.75)',
+        heading: 'rgba(255, 255, 255, 0.85)',
+        background: '#232323',
+        border: 'rgba(255, 255, 255, 0.25)',
+        toggleBg: '#FFFFFF'
       }
     }
   },
@@ -63,7 +67,8 @@ export default {
       mb: 4,
       fontSize: 7,
       fontWeight: 'bold',
-      lineHeight: 'tight'
+      lineHeight: 'tight',
+      color: 'heading'
     },
     h2: {
       mt: 9,
@@ -75,7 +80,8 @@ export default {
       textTransform: 'uppercase',
       letterSpacing: 1,
       borderBottom: '1px solid',
-      borderColor: 'border'
+      borderColor: 'border',
+      color: 'heading'
     },
     h3: {
       mt: 7,
@@ -86,7 +92,8 @@ export default {
     },
     h6: {
       fontSize: 1,
-      fontWeight: 'normal'
+      fontWeight: 'normal',
+      color: 'heading'
     },
     p: {
       mt: 0,
@@ -108,9 +115,10 @@ export default {
       color: 'inherit',
       textDecoration: 'none',
       borderBottom: '1px solid',
-      borderColor: 'border',
+      borderColor: 'highlight',
       '&:hover': {
-        backgroundColor: 'highlight'
+        backgroundColor: 'highlight',
+        transition: 'all 400ms'
       }
     },
     hr: {

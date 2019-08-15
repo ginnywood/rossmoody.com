@@ -27,6 +27,7 @@ function Layout({ children }) {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,600,600i&display=swap"
