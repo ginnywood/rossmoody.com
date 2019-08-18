@@ -4,12 +4,6 @@ body {
   transition: all 500ms ease-in-out;
 }
 
-/* Tooltip styles must target in CSS because pseudo elements can't be targeted inline*/
-
-.tooltip:after {
-  display: none;
-}
-
 /* Position the theme toggle */
 
 .switch-theme {
