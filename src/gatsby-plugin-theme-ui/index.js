@@ -43,14 +43,14 @@ export default {
     highlight: '#FFBF75',
     border: 'rgba(0, 0, 0, 0.25)',
     background: '#FFFFFF',
-    toggleBg: '#232323',
+    tooltipBg: '#232323',
     modes: {
       dark: {
         text: 'rgba(255, 255, 255, 0.75)',
         heading: 'rgba(255, 255, 255, 0.85)',
         background: '#232323',
         border: 'rgba(255, 255, 255, 0.25)',
-        toggleBg: '#FFFFFF'
+        tooltipBg: '#FFFFFF'
       }
     }
   },
@@ -100,25 +100,21 @@ export default {
       mb: 4
     },
     ul: {
-      p: 0,
-      listStyle: 'none'
+      p: 0
     },
     li: {
       mt: 0,
       mb: 2,
-      '&::before': {
-        content: '"•"',
-        pr: 4
-      }
+      ml: 5
     },
     a: {
       color: 'inherit',
       textDecoration: 'none',
-      borderBottom: '1px solid',
+      borderBottom: '1px dotted',
       borderColor: 'highlight',
       '&:hover': {
         backgroundColor: 'highlight',
-        transition: 'all 400ms'
+        transition: 'all 300ms'
       }
     },
     hr: {

@@ -1,3 +1,15 @@
+/* Ease theme switcher */
+
+body {
+  transition: all 500ms ease-in-out;
+}
+
+/* Tooltip styles must target in CSS because pseudo elements can't be targeted inline*/
+
+.tooltip:after {
+  display: none;
+}
+
 /* Position the theme toggle */
 
 .switch-theme {
@@ -70,7 +82,7 @@
   opacity: 1;
   top: 0px;
   -webkit-transition: all 1s;
-  transition: all 1s;
+  transition: all 0.5s;
   font-size: 40px;
   margin: 0 0 0 12px;
 }

@@ -1,7 +1,7 @@
 {
   "name": "rossmoody.com",
   "version": "0.0.0",
-  "author": "Ross Moody <fiftyfivehis@gmail.com>",
+  "author": "Ross Moody <ross@rossmoody.com>",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build"
