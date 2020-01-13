@@ -37,15 +37,6 @@ function Layout({ children }) {
           content="https://rossmoody.com/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-156181386-1"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || [] function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()) gtag('config', 'UA-156181386-1')
-        </script>
       </Helmet>
       <Global styles={{ body: { margin: 0 } }} />
       <Container>{children}</Container>
